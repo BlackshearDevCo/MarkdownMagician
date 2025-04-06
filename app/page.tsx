@@ -1,3 +1,4 @@
+import { EditorLayout } from "@/components/EditorLayout";
 import { Header } from "@/components/Header";
 import { Sidebar } from "@/components/Sidebar";
 
@@ -10,7 +11,7 @@ export default function Home() {
         <Sidebar />
 
         <main className="flex-1">
-          <h2>Main Content</h2>
+          <EditorLayout />
         </main>
       </div>
     </div>
