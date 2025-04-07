@@ -3,11 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-// const poppins = Poppins({
-//   subsets: ["latin"],
-//   weight: ["200", "400", "500", "700", "800"],
-//   style: ["normal", "italic"],
-// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className=".dark">
       <body
         className={`${inter.className} antialiased bg-background text-foreground`}
       >
